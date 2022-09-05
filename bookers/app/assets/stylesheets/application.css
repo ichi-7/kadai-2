@@ -13,3 +13,71 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin: 25px 35px;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+th {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+td {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  line-height: 1.5rem;
+}
+
+.title {
+  width: 200px;
+}
+
+.body {
+  width: 380px;
+}
+.show,.edit,.destroy {
+  padding: 0 5px;
+}
+
+table {
+  margin-bottom: 30px;
+  margin-left: 0;
+}
+
+a {
+  color: black;
+  font-size: 0.8rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+form {
+  margin-left: 0;
+}
+
+p.edit {
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}

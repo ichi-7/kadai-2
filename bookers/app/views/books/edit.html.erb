@@ -1,4 +1,4 @@
-<h1>Edit Book</h1>
+<h1>Editing Book</h1>
 <% if @book.errors.any? %>
   <%= @book.errors.count %>errors prohibited this book from being saved:
   <ul>
@@ -9,10 +9,10 @@
 <% end %>
 
 <%= form_with model: @book, url: "/books/#{@book.id}", method: :patch do |f| %>
-  <p>Title</p>
+  <h3>Title</h3>
   <%= f.text_field :title %>
   
-  <p>Body</p>
+  <h3>Body</h3>
   <%= f.text_area :body %>
   
   <br>
