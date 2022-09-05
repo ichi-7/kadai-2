@@ -14,7 +14,7 @@
     <td class="body"><span><%= book.body %></span></td>
     <td class="show"><%= link_to "Show", "/books/#{book.id}" %></td>
     <td class="edit"><%= link_to "Edit", "/books/#{book.id}/edit" %></td>
-    <td class="destroy"><%= link_to "Destroy", "books/#{book.id}", method: :delete, "data-confirm" => "Are you sure ?" %></td>
+    <td class="destroy"><%= link_to "Destroy", "/books/#{book.id}", method: :delete, "data-confirm" => "Are you sure ?" %></td>
   </tr>
   <% end %>
 </table>
